@@ -9,6 +9,7 @@ preMerge:
 preRun:
      command:
         - npm install 
+        - npm install mocha
         - npm run build
         - npm run react 13
 postRun:
