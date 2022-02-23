@@ -17,5 +17,5 @@ postRun:
         - node --version
 
 configFile: karma.conf.js
-tier: small
+# tier: small
 version: 1.0
