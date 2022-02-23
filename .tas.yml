@@ -12,7 +12,8 @@ preRun:
         - npm install 
         - npm run postinstall
         - npm run build
-        - npm run test:all
+        - npm run react 13
+        - npm run test:only
 postRun:
      command:
         - node --version
