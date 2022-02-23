@@ -8,13 +8,13 @@ preMerge:
     - "./packages/enzyme-test-suite/build/*spec.js"
 preRun:
      command:
-        - npm run clean-node-modules
         - npm install 
-        - npm run postinstall
         - npm run build
         - npm run react 13
-        - npm run test:only
 postRun:
      command:
         - node --version
+
+configFile: karma.conf.js
+tier: small
 version: 1.0
